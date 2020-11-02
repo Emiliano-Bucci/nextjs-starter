@@ -37,7 +37,6 @@ module.exports = {
       },
     ],
     // Errors
-    "emotion/jsx-import": 2,
     "emotion/no-vanilla": 2,
     "emotion/import-from-emotion": 2,
     "emotion/styled-import": 2,

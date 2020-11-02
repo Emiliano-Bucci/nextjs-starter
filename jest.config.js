@@ -3,7 +3,7 @@ module.exports = {
   globals: {
     "ts-jest": {
       babelConfig: true,
-      tsConfig: "tsconfig.jest.json",
+      // tsConfig: "tsconfig.jest.json",
     },
   },
   snapshotSerializers: ["jest-emotion"],
