@@ -1,3 +1,5 @@
+/// <reference types="@emotion/react/types/css-prop" />
+
 declare module "*.svg" {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const content: any;

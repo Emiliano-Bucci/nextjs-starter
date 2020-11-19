@@ -11,7 +11,7 @@ module.exports = {
     // This should always be the last configuration in the extends array.
     "plugin:prettier/recommended",
   ],
-  plugins: ["react-hooks", "emotion"],
+  plugins: ["react-hooks", "@emotion"],
   parserOptions: {
     // Allows for the parsing of modern ECMAScript features
     ecmaVersion: 2018,
@@ -29,6 +29,7 @@ module.exports = {
     jest: true,
   },
   rules: {
+    "@emotion/pkg-renaming": 2,
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
@@ -37,9 +38,9 @@ module.exports = {
       },
     ],
     // Errors
-    "emotion/no-vanilla": 2,
-    "emotion/import-from-emotion": 2,
-    "emotion/styled-import": 2,
+    "@emotion/no-vanilla": 2,
+    "@emotion/import-from-emotion": 2,
+    "@emotion/styled-import": 2,
     "@typescript-eslint/no-explicit-any": 2,
     "@typescript-eslint/no-var-requires": 2,
     "react-hooks/rules-of-hooks": 2,

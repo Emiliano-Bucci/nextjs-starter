@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import { Component } from "Components";
+import { Component } from "components";
 
 describe("test", () => {
   test("test", () => {

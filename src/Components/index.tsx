@@ -1,6 +1,5 @@
-/** @jsxImportSource @emotion/core */
 import React from "react";
-import { css } from "@emotion/core";
+import { css } from "@emotion/react";
 
 export const Component = () => {
   return (

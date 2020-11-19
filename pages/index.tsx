@@ -1,4 +1,4 @@
-import { Component } from "Components";
+import { Component } from "components";
 import React from "react";
 
 const Page = () => {
