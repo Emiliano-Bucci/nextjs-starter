@@ -11,7 +11,4 @@ const nextConfig = {
   target: "serverless",
 };
 
-module.exports = withPlugins(
-  [[withBundleAnalyzer({})], [optimizedImages()]],
-  nextConfig
-);
+module.exports = withPlugins([withBundleAnalyzer, optimizedImages], nextConfig);
